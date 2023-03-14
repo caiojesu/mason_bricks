@@ -30,10 +30,10 @@ Inside your `mason.yaml` file, add the name of the brick and the Github reposito
 
 ```
 bricks:
-    domain_driven_feature:
-      git:
-        url: https://github.com/caiojesu/mason_bricks
-        path: domain_driven_feature
+  domain_driven_feature:
+    git:
+      url: https://github.com/caiojesu/mason_bricks
+      path: domain_driven_feature
 ```
 Then run `mason get`to register the brick. Now you can use the brick in your project.
 ```

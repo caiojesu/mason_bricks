@@ -40,10 +40,10 @@ mason make domain_driven_feature
 
 ## Folder Structure
 
-- Presentation layer: contains the application's widgets and pages.
-- Application layer: contains the controllers.
-- Domain layer: contains the entities and interfaces of repositories and controllers.
-- Infrastructure layer: contains the implementations of the repositories.
+- **Presentation layer**: contains the application's widgets and pages.
+- **Application layer**: contains the controllers.
+- **Domain layer**: contains the entities and interfaces of repositories and controllers.
+- **Infrastructure layer**: contains the implementations of the repositories.
 
 
  ## Variables 
