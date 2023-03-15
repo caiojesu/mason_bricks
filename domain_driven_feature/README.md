@@ -7,6 +7,11 @@ A Mason brick that facilitates the creation of a feature using a Domain-driven a
 ## Requirements
 Install in your project [json_serializable](https://pub.dev/packages/json_serializable), [json_annotation](https://pub.dev/packages/json_annotation) and [build_runner](https://pub.dev/packages/build_runner) from pub.dev to generate the model methods.
 ```
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation:
+  
 dev_dependencies:
   build_runner:
   json_serializable:
