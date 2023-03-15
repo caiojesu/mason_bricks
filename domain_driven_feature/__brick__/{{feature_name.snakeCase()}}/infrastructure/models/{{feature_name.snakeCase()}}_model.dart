@@ -2,7 +2,7 @@ import 'package:json_annotation/json_annotation.dart';
 
 import '../../domain/entities/{{ feature_name.snakeCase() }}_entity.dart';
 
-part '{{ feature_name.snakeCase() }}_model.g.dart'
+part '{{ feature_name.snakeCase() }}_model.g.dart';
 
 @JsonSerializable()
 class {{feature_name.pascalCase()}}Model extends {{feature_name.pascalCase()}}Entity{
