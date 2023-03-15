@@ -1,9 +1,9 @@
 name: domain_driven_feature
-description: A new brick created with the Mason CLI.
+description: A Mason brick that facilitates the creation of a feature using a Domain-driven approach architecture.
 
 # The following defines the brick repository url.
 # Uncomment and update the following line before publishing the brick.
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/caiojesu/mason_bricks/tree/main/domain_driven_feature
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
