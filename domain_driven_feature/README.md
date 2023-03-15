@@ -5,10 +5,11 @@ A Mason brick that facilitates the creation of a feature using a Domain-driven a
 
 
 ## Requirements
-Install in your project [equatable](https://pub.dev/packages/equatable)  and [dartz](https://pub.dev/packages/dartz) from pub.dev.
+Install in your project [json_serializable](https://pub.dev/packages/json_serializable) and [build_runner](https://pub.dev/packages/build_runner) from pub.dev.
 ```
-flutter pub add equatable
-flutter pub add dartz
+dev_dependencies:
+  build_runner:
+  json_serializable:
 ```
 ## How to Use
 First make sure you have [mason_cli](https://pub.dev/packages/mason_cli) installed.
