@@ -1,7 +1,7 @@
 # Domain Driven Feature
 
 ## Overview
-A Mason brick that facilitates the creation of a feature based on the Domain-Driven Design architecture for small projects.
+A Mason brick that facilitates the creation of a feature using a Domain-driven approach architecture.
 
 
 ## Requirements
@@ -41,7 +41,7 @@ mason make domain_driven_feature
 ## Folder Structure
 
 - **Presentation layer**: contains the application's widgets and pages.
-- **Application layer**: contains the controllers.
+- **Application layer**: contains the page controllers.
 - **Domain layer**: contains the entities and interfaces of repositories and controllers.
 - **Infrastructure layer**: contains the implementations of the repositories.
 
