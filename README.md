@@ -10,7 +10,7 @@ My collection of Mason Bricks that simplify the creation of frequently used code
 
 | name            | description                  |
 | --------------- | ---------------------------- |
-| [`domain_driven_feature`](https://github.com/caiojesu/mason_bricks/tree/main/bricks/domain_driven_feature) | Create a new feature using an architecture based on Domain-Driven design for small projects |
+| [`domain_driven_feature`](https://github.com/caiojesu/mason_bricks/tree/main/domain_driven_feature) | Create a new feature using a Domain-driven approach architecture |
 
 
 ## How to Use
