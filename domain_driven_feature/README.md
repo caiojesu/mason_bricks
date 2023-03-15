@@ -5,7 +5,7 @@ A Mason brick that facilitates the creation of a feature using a Domain-driven a
 
 
 ## Requirements
-Install in your project [json_serializable](https://pub.dev/packages/json_serializable) and [build_runner](https://pub.dev/packages/build_runner) from pub.dev.
+Install in your project [json_serializable](https://pub.dev/packages/json_serializable), [json_annotation](https://pub.dev/packages/json_annotation) and [build_runner](https://pub.dev/packages/build_runner) from pub.dev to generate the model methods.
 ```
 dev_dependencies:
   build_runner:
@@ -34,7 +34,7 @@ bricks:
       path: domain_driven_feature
 
 ```
-Then run `mason get`to register the brick. Now you can use the brick in your project.
+Then run `mason get` to register the brick. Now you can use the brick in your project.
 ```
 mason make domain_driven_feature
 ```
