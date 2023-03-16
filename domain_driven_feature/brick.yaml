@@ -30,3 +30,8 @@ vars:
     description: Feature name
     default: feature
     prompt: What is the feature name?
+  use_json_serializable:
+    type: boolean
+    description: Use Json Serializable in the models
+    default: true
+    prompt: Use Json Serializable in the models?
