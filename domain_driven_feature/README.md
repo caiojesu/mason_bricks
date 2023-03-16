@@ -46,10 +46,9 @@ mason make domain_driven_feature
 
 ## Folder Structure
 
-- **Presentation layer**: contains the application's widgets and pages.
-- **Application layer**: contains the page controllers.
-- **Domain layer**: contains the entities and interfaces of repositories and controllers.
-- **Infrastructure layer**: contains the implementations of the repositories.
+- **Presentation**: contains the application's UI and the page controllers.
+- **Domain**: contains the entities and interfaces of repositories, data sources and controllers.
+- **Data**: contains the models and implementations of the repositories and data sources.
 
 
  ## Variables 
@@ -63,23 +62,26 @@ mason make domain_driven_feature
 
 └── feature
     ├── presentation
+    │   ├── controllers
+    │   │   └── feature_controller_imp.dart    
     │   └── pages
 	│       └── feature_page.dart
-    ├── application
-    │   └── controllers
-    │   │   └── imp_feature_controller.dart
     ├── domain
     │   ├── entities
     │   │   └── feature_entity.dart
     │   ├── controllers
     │   │   └── feature_controller.dart
-    │   └── repositories
-    │   │   └── feature_repository.dart
-    └── infrastructure
+    │   ├── repositories
+    │   │   └── feature_repository.dart   
+    │   └── datasources
+    │       └── feature_datasource.dart
+    └── data
         ├── models
         │   └── feature_model.dart
-        └── repositories
-	        └── imp_feature_repository.dart
+        ├── repositories
+        │   └── feature_repository_imp.dart         
+        └── datasources
+	        └── feature_datasource_imp.dart
 
 
 ```
