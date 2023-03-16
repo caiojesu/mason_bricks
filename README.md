@@ -26,16 +26,9 @@ brew install mason
 
 Create your mason project by running `mason init` in your project.
 
-Inside your `mason.yaml` file, add the name of the brick and the Github repository link.
+Then run `mason add domain_driven_feature` to get the brick from [BrickHub](https://brickhub.dev/bricks/domain_driven_feature/0.2.0).
 
-```
-bricks:
-  domain_driven_feature:
-    git:
-      url: https://github.com/caiojesu/mason_bricks
-      path: domain_driven_feature
-```
-Then run `mason get`to register the brick. Now you can use the brick in your project.
+Now you can use the brick in your project:
 ```
 mason make domain_driven_feature
 ```
