@@ -1,11 +1,11 @@
 # Domain Driven Feature
 
-## Overview
 A Mason brick that facilitates the creation of a feature using a Domain-driven approach architecture.
 
 
 ## Requirements
-Install in your project [json_serializable](https://pub.dev/packages/json_serializable), [json_annotation](https://pub.dev/packages/json_annotation) and [build_runner](https://pub.dev/packages/build_runner) from pub.dev to generate the model methods.
+If you want to generate model methods with [Json Serializable](https://pub.dev/packages/json_serializable) you will need to install in your project [json_serializable](https://pub.dev/packages/json_serializable), [json_annotation](https://pub.dev/packages/json_annotation) and [build_runner](https://pub.dev/packages/build_runner) from pub.dev.
+These packages will allow the brick to generate the initial code for your models.
 ```
 dependencies:
   flutter:
@@ -49,6 +49,7 @@ mason make domain_driven_feature
 | Variable       | Description             | Default | Type     |
 | -------------- | ----------------------- | ------- | -------- |
 | `feature_name` | The name of the feature | feature | `string` |
+| `use_json_serializable` | Use Json Serializable in the models | true | `boolean` |
 
 ## Outputs
 ```
